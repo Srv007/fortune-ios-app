@@ -10,4 +10,13 @@
 
 @interface FOViewController : UIViewController
 
+// Model
+@property (nonatomic, copy) NSArray *fortunes;
+
+// Outlets
+@property (nonatomic, strong) IBOutlet UITextView *fortuneField;
+
+// Actions
+- (IBAction)showFortune:(id)sender;
+
 @end
