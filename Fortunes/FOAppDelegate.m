@@ -11,11 +11,15 @@
 
 @implementation FOAppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+- (BOOL)application:(UIApplication *)application
+        didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 
-    FOViewController *viewController = [[FOViewController alloc] initWithNibName:@"FOViewController" bundle:nil];
+    // Create our view controller; set it as the root view controller
+    FOViewController *viewController = [[FOViewController alloc]
+                                        initWithNibName:@"FOViewController"
+                                        bundle:nil];
     [[self window] setRootViewController:viewController];
 
     self.window.backgroundColor = [UIColor whiteColor];
