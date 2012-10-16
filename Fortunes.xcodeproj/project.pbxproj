@@ -16,6 +16,8 @@
 		6B89DCB8162D970000CFF528 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B89DCB7162D970000CFF528 /* Default.png */; };
 		6B89DCBA162D970000CFF528 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B89DCB9162D970000CFF528 /* Default@2x.png */; };
 		6B89DCBC162D970000CFF528 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B89DCBB162D970000CFF528 /* Default-568h@2x.png */; };
+		6B89DCC5162D972200CFF528 /* FOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B89DCC3162D972200CFF528 /* FOViewController.m */; };
+		6B89DCC6162D972200CFF528 /* FOViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B89DCC4162D972200CFF528 /* FOViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,9 @@
 		6B89DCB7162D970000CFF528 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		6B89DCB9162D970000CFF528 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		6B89DCBB162D970000CFF528 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6B89DCC2162D972200CFF528 /* FOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FOViewController.h; sourceTree = "<group>"; };
+		6B89DCC3162D972200CFF528 /* FOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FOViewController.m; sourceTree = "<group>"; };
+		6B89DCC4162D972200CFF528 /* FOViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FOViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +85,9 @@
 			children = (
 				6B89DCB4162D970000CFF528 /* FOAppDelegate.h */,
 				6B89DCB5162D970000CFF528 /* FOAppDelegate.m */,
+				6B89DCC2162D972200CFF528 /* FOViewController.h */,
+				6B89DCC3162D972200CFF528 /* FOViewController.m */,
+				6B89DCC4162D972200CFF528 /* FOViewController.xib */,
 				6B89DCAC162D970000CFF528 /* Supporting Files */,
 			);
 			path = Fortunes;
@@ -155,6 +163,7 @@
 				6B89DCB8162D970000CFF528 /* Default.png in Resources */,
 				6B89DCBA162D970000CFF528 /* Default@2x.png in Resources */,
 				6B89DCBC162D970000CFF528 /* Default-568h@2x.png in Resources */,
+				6B89DCC6162D972200CFF528 /* FOViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +176,7 @@
 			files = (
 				6B89DCB2162D970000CFF528 /* main.m in Sources */,
 				6B89DCB6162D970000CFF528 /* FOAppDelegate.m in Sources */,
+				6B89DCC5162D972200CFF528 /* FOViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
